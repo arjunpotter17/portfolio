@@ -23,15 +23,15 @@ const Header = () => {
         >
             {/* Socials */}
             <SocialIcon
-             url="https://linkedin.com/jaketrent"
+             url="https://www.linkedin.com/in/nagarjun-mohan-77300818b"
              fgColor='gray'
              bgColor='transparent' />
              <SocialIcon
-             url="https://instagram.com/jaketrent"
+             url="https://instagram.com/arjunpotter17"
              fgColor='gray'
              bgColor='transparent' />
              <SocialIcon
-             url="https://github.com/jaketrent"
+             url="https://github.com/arjunpotter17"
              fgColor='gray'
              bgColor='transparent' />
         </motion.div>
@@ -58,7 +58,7 @@ const Header = () => {
              url="https://email/arjunpotter17@gmail.com"
              fgColor='gray'
              bgColor='transparent' />
-             <p className='hidden md:inline-flex text-sm text-gray-200 font-popping'>Let's Connect</p>
+             <p className='hidden md:inline-flex text-sm text-gray-200 font-popping'>Let&apos;s Connect</p>
            
             
         </motion.div>
