@@ -23,7 +23,7 @@ const Contact = () => {
 
           <h4 className='text-xl md:text-2xl xl:text-4xl font-popping font-semibold'>I can build exactly what you need.
             <br />
-            <span className='uppercase tracking-widest text-lime-300'>Let&apos;s talk</span>
+            <span className='uppercase tracking-widest text-lime-300'>Let us talk</span>
           </h4>
           <div className='flex gap-3 items-center justify-center font-popping'>
             <EnvelopeIcon className='w-[24px] h-[24px] text-lime-300' />

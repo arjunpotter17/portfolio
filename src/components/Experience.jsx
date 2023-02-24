@@ -30,7 +30,7 @@ const Experience = () => {
         className='flex flex-col justify-center items-center'
         >
           <Image src={errorImg} alt='error-pic' className='rounded-lg w-[80px] h-[80px] md:w-[100px] md:h-[100px]'/>
-          <p className='text-gray-500 text-md md:text-lg xl:mb-10 px-5 py-2 text-center'>The section you&apos;re trying to visit is currently under maintanence. Please visit again in a few days.</p>
+          <p className='text-gray-500 text-md md:text-lg xl:mb-10 px-5 py-2 text-center'>The section you are trying to visit is currently under maintanence. Please visit again in a few days.</p>
         </motion.div>
         <motion.div
         initial={{

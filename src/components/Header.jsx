@@ -58,7 +58,7 @@ const Header = () => {
              url="https://email/arjunpotter17@gmail.com"
              fgColor='gray'
              bgColor='transparent' />
-             <p className='hidden md:inline-flex text-sm text-gray-200 font-popping'>Let&apos;s Connect</p>
+             <p className='hidden md:inline-flex text-sm text-gray-200 font-popping'>Contact Me</p>
            
             
         </motion.div>
