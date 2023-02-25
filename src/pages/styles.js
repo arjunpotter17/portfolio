@@ -8,10 +8,10 @@ const Styles = () => {
                 <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl xl:mb-10'>
                     Styles
                 </h3>
-                <div className='w-[320px]  md:w-full flex space-x-5 overflow-x-scroll scrollbar-hide::-webkit-scrollbar scrollbar-hide p-10 snap-x snap-mandatory z-20 '>
+                <div className='w-[320px]  md:w-full flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-lime-300 p-10 snap-x snap-mandatory z-20 '>
                     <div className=' flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20'>
                         <div className='flex justify-between'>
-                            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[20px] text-xl '>chatgpt</h4>
+                            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[10px] text-md md:tracking-[20px] md:text-xl  '>chatgpt</h4>
                             <Link href='https://design-project-1.vercel.app'>
                                 <button className='bg-black text-lime-300 p-3 rounded-lg uppercase tracking-wider hover:bg-lime-300 hover:text-black'>go</button>
                             </Link></div>
@@ -23,7 +23,7 @@ const Styles = () => {
 
                     <div className='flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20'>
                         <div className='flex justify-between'>
-                            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[20px] text-xl '>Gericht</h4>
+                            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[10px] text-md md:tracking-[20px] md:text-xl '>Gericht</h4>
                             <Link href='https://design-project-2.vercel.app'>
                                 <button className='bg-black text-lime-300 p-3 rounded-lg uppercase tracking-wider hover:bg-lime-300 hover:text-black'>go</button>
                             </Link>
@@ -40,7 +40,7 @@ const Styles = () => {
 
                     <div className='flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20'>
                         <div className='flex justify-between'>
-                            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[20px] text-xl '>HooBank</h4>
+                            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[10px] text-md md:tracking-[20px] md:text-xl '>HooBank</h4>
                             <Link href='https://design-project-3.vercel.app'>
                                 <button className='bg-black text-lime-300 p-3 rounded-lg uppercase tracking-wider hover:bg-lime-300 hover:text-black'>go</button>
                             </Link></div>

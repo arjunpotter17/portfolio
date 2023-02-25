@@ -28,7 +28,7 @@ const Projects = () => {
 
         <div className='flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20'>
           <div className='flex justify-between'>
-            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[10px] text-md '>Headliners</h4>
+            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[10px] text-md md:tracking-[20px] md:text-xl '>Headliners</h4>
             <Link href='/headliners'>
               <button className='bg-black text-lime-300 p-3 rounded-lg uppercase tracking-wider hover:bg-lime-300 hover:text-black'>go</button>
             </Link>

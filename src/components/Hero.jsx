@@ -60,11 +60,11 @@ const Hero = () => {
                     </Link>
 
                     <Link href='#certificate'>
-                    <button className='herobutton font-popping text-left'>Certificates</button>
+                    <button className='herobutton font-popping'>Certificates</button>
                     </Link>
 
                     <Link href='#experience'>
-                    <button className='herobutton font-popping text-left'>Experience</button>
+                    <button className='herobutton font-popping'>Experience</button>
                     </Link>
                 </div>
             </div>
