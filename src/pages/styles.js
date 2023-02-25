@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Styles = () => {
     return (
-        <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll scroll-smooth z-0'>
+        <div className='bg-[rgb(36,36,36)] text-white h-screen'>
             <div className='h-screen flex relative overflow-hidden flex-col md:flex-row text-left max-w-full px-10 justify-evenly mx-auto items-center'>
                 <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl xl:mb-10'>
                     Styles
