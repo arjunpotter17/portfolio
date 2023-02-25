@@ -9,7 +9,7 @@ const Projects = () => {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl xl:mb-10'>
         Projects
       </h3>
-      <div className='w-[320px]  md:w-full flex space-x-5 overflow-x-scroll scrollbar-hide::-webkit-scrollbar scrollbar-hide p-10 snap-x snap-mandatory z-20 '>
+      <div className='w-[320px]  md:w-full flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-lime-300 p-10 snap-x snap-mandatory z-20 '>
         <div className=' flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20'>
           <div className='flex justify-between'>
             <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[20px] text-xl'>Games</h4>
@@ -54,7 +54,7 @@ const Projects = () => {
           <hr className='bg-lime-300' />
           <p className='text-justify text-sm md:text-xl'>
             I always had a bug for the aesthete. Designing the look and feel of a website is very interesting. This section includes projects that I built, to learn
-            the process behind the designing a website. Please keep in mind that since these projects are meant to be web design showcases, they are not functional
+            the process behind designing a website. Please keep in mind that since these projects are meant to be web design showcases, they are not functional
             in any manner whatsover. Dive right in!
           </p>
         </div>

@@ -107,7 +107,7 @@ const Certificate = () => {
           <div className='flex flex-col justify-center items-start text-left'>
             <h4 className='font-popping font-semibold md:font-extrabold md:text-2xl text-sm '>Frontend Developer Career Certificate</h4>
             <p className='text-gray-500 '>Meta(The Facebook Company)</p>
-            <p className='text-gray-500 '>Issued November 14,2022</p>
+            <p className='text-gray-500 '>In Process</p>
           </div>
         </motion.div>
       </div>

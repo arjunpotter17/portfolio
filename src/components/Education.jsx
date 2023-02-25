@@ -54,7 +54,7 @@ const Education = () => {
                 <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
                     Education
                 </h3>
-                <div className='w-full flex space-x-5 overflow-x-scroll scrollbar-hide::-webkit-scrollbar scrollbar-hide p-10 snap-x snap-mandatory'>
+                <div className='w-full flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-lime-300 p-10 snap-x snap-mandatory'>
                     {education.map(phase => (<EduCard info={phase} key={phase.id} />))}
                 </div>
         </motion.div>

@@ -6,7 +6,7 @@ import college from '../assets/college.jpg'
 
 const EduCard = ({info}) => {
   return (
-    <article className='flex h-[400px] md:h-[370px] flex-col rounded-l items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[40px] xl:mt-20'>
+    <article className='flex h-[400px] md:h-[370px] flex-col rounded-l items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[40px] xl:mt-20 border border-gray-600 md:border-none'>
         <div>
             <Image src={!Array.isArray(info.grade)?school:college} alt='school-pic' className='w-24 h-24 rounded-full xl:w-[150px] xl:h-[150px] object-fill xl:object-cover object-center '/>
         </div>

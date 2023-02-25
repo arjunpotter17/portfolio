@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Hero = () => {
 
     const [text, count] = useTypewriter({
-        words: ["The Name's Arjun", 'StackOverFlow expert', 'Professional copy-paster', 'Absolute goofball'],
+        words: ["The Name's Mohan", 'Arjun Mohan', 'StackOverFlow expert', 'Professional copy-paster',],
         loop: true,
         delaySpeed: 2000,
     })
@@ -42,7 +42,7 @@ const Hero = () => {
                     </span>
                     <Cursor cursorColor='#fff' />
                 </h1>
-                <div>
+                <div className='flex flex-wrap justify-evenly'>
                     <Link href='#about'>
                     <button className='herobutton font-popping'>About</button>
                     </Link>
@@ -60,11 +60,11 @@ const Hero = () => {
                     </Link>
 
                     <Link href='#certificate'>
-                    <button className='herobutton font-popping'>Certificates</button>
+                    <button className='herobutton font-popping text-left'>Certificates</button>
                     </Link>
 
                     <Link href='#experience'>
-                    <button className='herobutton font-popping'>Experience</button>
+                    <button className='herobutton font-popping text-left'>Experience</button>
                     </Link>
                 </div>
             </div>
