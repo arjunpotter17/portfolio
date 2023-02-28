@@ -54,8 +54,9 @@ const Projects = () => {
           <hr className='bg-lime-300' />
           <p className='text-justify text-sm md:text-xl'>
             I always had a bug for the aesthete. Designing the look and feel of a website is very interesting. This section includes projects that I built, to learn
-            the process behind designing a website. Please keep in mind that since these projects are meant to be web design showcases, they are not functional
-            in any manner whatsover. Dive right in!
+            the process behind designing a website.Dive right in! <span className='text-[#FF69B4] text-sm'>Caution: Please keep in mind that since these projects are meant to be web design showcases, they are not functional
+            in any manner whatsover. Also, these projects are guided youtube tutorials that I followed to further my hold over css. Although I have written every line of code myself, I cannot call these projects my own
+            because they do not include any of my brainwork.</span>
           </p>
         </div>
 

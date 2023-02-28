@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import fcc from '../assets/fcc.png';
 import meta from '../assets/meta.png'
+import Link from 'next/link';
 
 const Certificate = () => {
   return (
@@ -35,6 +36,7 @@ const Certificate = () => {
             once:true
           }}
          className='flex flex-row items-center m-2 border border-gray-600 p-3 rounded-lg hover:border-lime-300 w-[280px] md:w-full md:p-3'>
+          <Link href='https://www.freecodecamp.org/certification/fccce57cfed-dfe3-44c5-b499-13ff6124ccf4/responsive-web-design'>
           <div className='bg-white rounded-lg p-2 w-[55px] h-[55px] m-2 mr-4 md:w-[85px] md:h-[85px]'>
             <Image src={fcc} className='w-full h-full object-contain' alt='fcc' />
           </div>
@@ -43,6 +45,8 @@ const Certificate = () => {
             <p className='text-gray-500 '>FreeCodeCamp</p>
             <p className='text-gray-500 '>Issued November 2,2022</p>
           </div>
+          </Link>
+          
         </motion.div>
 
         <motion.div
@@ -68,6 +72,7 @@ const Certificate = () => {
             once:true
           }}
          className='flex flex-row items-center m-2 border border-gray-600 p-3 rounded-lg hover:border-lime-300 w-[280px] md:w-full md:p-3'>
+          <Link href='https://www.freecodecamp.org/certification/fccce57cfed-dfe3-44c5-b499-13ff6124ccf4/javascript-algorithms-and-data-structures'>
           <div className='bg-white rounded-lg p-2 w-[55px] h-[55px] m-2 mr-4 md:w-[85px] md:h-[85px]'>
             <Image src={fcc} className='w-full h-full object-contain' alt='fcc'/>
           </div>
@@ -76,6 +81,8 @@ const Certificate = () => {
             <p className='text-gray-500 '>FreeCodeCamp</p>
             <p className='text-gray-500 '>Issued November 14,2022</p>
           </div>
+          </Link>
+          
         </motion.div>
 
         <motion.div

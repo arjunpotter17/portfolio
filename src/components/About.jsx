@@ -58,6 +58,9 @@ const About = () => {
                 transition={{
                     duration: 1
                 }}
+                viewport={{
+                    once:true
+                }}
                 className='space-y-5 px-0 md:px-10'>
                 <h4 className='lg:text-4xl text-xl font-semibold font-popping'>A <span className='text-lime-300'>little</span> background</h4>
                 <p className='font-popping px-10 text-justify text-xs md:text-xl lg:text-sm md:tracking-wide'>

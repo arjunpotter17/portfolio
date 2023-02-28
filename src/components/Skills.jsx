@@ -11,6 +11,7 @@ import redux from '../assets/redux.png'
 import sanity from '../assets/sanity.svg'
 import next from '../assets/nextjs-icon.png'
 import figma from '../assets/figma.png'
+import tailwind from '../assets/tailwind.png'
 
 const Skills = () => {
   return (
@@ -19,16 +20,17 @@ const Skills = () => {
             Skills
         </h3>
         <div className='grid grid-cols-3 gap-5 mt-5 lg:mt-20'>
-            <Skill value={'html'}  name={html}/>
-            <Skill value={'css'} name={css}/>
-            <Skill value={'javascript'} name={javascript}/>
-            <Skill direction={'left'} value={'react'} name={react}/>
-            <Skill direction={'left'} value={'redux'} name={redux}/>
-            <Skill direction={'left'} value={'github'} name={github}/>
-            <Skill  value={'node.js'} name={node}/>
-            <Skill  value={'sanity.io'} name={sanity}/>
-            <Skill  value={'next.js'} name={next}/>
+            <Skill value={'Html'}  name={html}/>
+            <Skill value={'CSS'} name={css}/>
+            <Skill value={'javaScript'} name={javascript}/>
+            <Skill direction={'left'} value={'React'} name={react}/>
+            <Skill direction={'left'} value={'Redux'} name={redux}/>
+            <Skill direction={'left'} value={'Github'} name={github}/>
+            <Skill  value={'Node.js'} name={node}/>
+            <Skill  value={'Sanity.io'} name={sanity}/>
+            <Skill  value={'Next.js'} name={next}/>
             <Skill  value={'Figma'} name={figma}/>
+            <Skill value = {'Tailwind'} name={tailwind}/>
         </div>
         
     </motion.div>
