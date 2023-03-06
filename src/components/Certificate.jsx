@@ -89,6 +89,7 @@ const Certificate = () => {
         </motion.div>
         </Link>
 
+        <Link href='https://www.coursera.org/account/accomplishments/specialization/certificate/47S4UEFTLH5G'>
         <motion.div
           initial={{
             x:+200,
@@ -118,9 +119,10 @@ const Certificate = () => {
           <div className='flex flex-col justify-center items-start text-left'>
             <h4 className='font-popping font-semibold md:font-extrabold md:text-2xl text-sm '>Frontend Developer Career Certificate</h4>
             <p className='text-gray-500 '>Meta(The Facebook Company)</p>
-            <p className='text-gray-500 '>In Process</p>
+            <p className='text-gray-500 '> Issued March 6,2023</p>
           </div>
         </motion.div>
+        </Link>
       </div>
     </div>
   )
