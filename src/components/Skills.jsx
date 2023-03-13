@@ -12,6 +12,7 @@ import sanity from '../assets/sanity.svg'
 import next from '../assets/nextjs-icon.png'
 import figma from '../assets/figma.png'
 import tailwind from '../assets/tailwind.png'
+import typescript from '../assets/typescript-logo.png'
 
 const Skills = () => {
   return (
@@ -31,6 +32,7 @@ const Skills = () => {
             <Skill  value={'Next.js'} name={next}/>
             <Skill  value={'Figma'} name={figma}/>
             <Skill value = {'Tailwind'} name={tailwind}/>
+            <Skill value = {'Typescript'} name={typescript}/>
         </div>
         
     </motion.div>

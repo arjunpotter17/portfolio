@@ -13,7 +13,7 @@ import Experience from '@/components/Experience'
 import Certificate from '@/components/Certificate'
 import Link from 'next/link'
 import footerImg from '../assets/footer-logo.jpg'
-import { useEffect } from 'react'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -63,6 +63,9 @@ export default function Home() {
       <Link href='#hero'>
       <footer className='absolute bottom-16 md:right-11 md:bottom-8 right-5 md:grayscale hover:grayscale-0 z-10'>
         <Image src={footerImg} alt='home-btn' className=' rounded-full mx-auto object-cover w-[55px] h-[55px]'/>
+        <p className='text-center font-popping'>Top</p>
+        
+
       </footer>
       </Link>
       
