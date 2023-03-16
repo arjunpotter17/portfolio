@@ -63,9 +63,9 @@ const Hero = () => {
                     <button className='herobutton font-popping'>Certificates</button>
                     </Link>
 
-                    <Link href='#experience'>
+                    {/*<Link href='#experience'>
                     <button className='herobutton font-popping'>Experience</button>
-                    </Link>
+            </Link>*/}
                 </div>
             </div>
 

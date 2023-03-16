@@ -10,23 +10,7 @@ const Projects = () => {
         Projects
       </h3>
       <div className='w-[320px]  md:w-full flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-lime-900 scrollbar-thumb-lime-300 p-10 snap-x snap-mandatory z-10'>
-        <div className=' flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20 border border-gray-500 md:border-none'>
-          <div className='flex justify-between'>
-            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[20px] text-xl'>Games</h4>
-            <Link href='https://games-snowy-five.vercel.app/'>
-              <button className='bg-black text-lime-300 p-3 rounded-lg uppercase tracking-wider hover:bg-lime-300 hover:text-black'>go</button>
-            </Link>
-          </div>
-          <hr className='bg-lime-300' />
-          <p className='text-justify text-sm md:text-xl'>
-            These games are made entirely using basic HTML, CSS, and JavaScript.
-            I made these games to improve my command over JavaScript and learn use case scenarios of the data
-            structures available. I did not pay much heed to the styling since my focus was entirely on the functioning of
-            these games. Have fun playing!
-          </p>
-        </div>
-
-        <div className='flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20 border border-gray-500 md:border-none'>
+      <div className='flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20 border border-gray-500 md:border-none'>
           <div className='flex justify-between'>
             <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[10px] text-md md:tracking-[20px] md:text-xl '>Headliners</h4>
             <Link href='/headliners'>
@@ -44,6 +28,23 @@ const Projects = () => {
 
 
         </div>
+        <div className=' flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20 border border-gray-500 md:border-none'>
+          <div className='flex justify-between'>
+            <h4 className='text-gray-500 flex flex-col justify-evenly items-center uppercase tracking-[20px] text-xl'>Games</h4>
+            <Link href='https://games-snowy-five.vercel.app/'>
+              <button className='bg-black text-lime-300 p-3 rounded-lg uppercase tracking-wider hover:bg-lime-300 hover:text-black'>go</button>
+            </Link>
+          </div>
+          <hr className='bg-lime-300' />
+          <p className='text-justify text-sm md:text-xl'>
+            These games are made entirely using basic HTML, CSS, and JavaScript.
+            I made these games to improve my command over JavaScript and learn use case scenarios of the data
+            structures available. I did not pay much heed to the styling since my focus was entirely on the functioning of
+            these games. Have fun playing!
+          </p>
+        </div>
+
+        
 
         <div className='flex flex-col rounded-lg space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-transparent p-5 mt-12 xl:mt-20 border border-gray-500 md:border-none'>
           <div className='flex justify-between'>

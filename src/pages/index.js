@@ -57,9 +57,9 @@ export default function Home() {
       <section id='certificate' className='snap-center'>
         <Certificate />
       </section>
-      <section id='experience' className='snap-center'>
+      {/*<section id='experience' className='snap-center'>
         <Experience />
-      </section>
+  </section>*/}
       <Link href='#hero'>
       <footer className='absolute bottom-16 md:right-11 md:bottom-8 right-5 md:grayscale hover:grayscale-0 z-10'>
         <Image src={footerImg} alt='home-btn' className=' rounded-full mx-auto object-cover w-[55px] h-[55px]'/>

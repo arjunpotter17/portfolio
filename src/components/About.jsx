@@ -64,9 +64,9 @@ const About = () => {
                 className='space-y-5 px-0 md:px-10'>
                 <h4 className='lg:text-4xl text-xl font-semibold font-popping'>A <span className='text-lime-300'>little</span> background</h4>
                 <p className='font-popping px-10 text-justify text-xs md:text-xl lg:text-sm md:tracking-wide'>
-                Hello my name is Arjun! I am a 24 year old aspiring front-end developer. I graduated from Sir M. Visvesvaraya Institute of Technology, Bengaluru with a Bachelor degree in computer science in 2020. I originally wanted nothing to do with the I.T world as I intended to be a pilot after graduating.
-                    Due to certain personal and financial reasons, I realised that I could no longer pursue a career in the skies. With two years invested into piloting, I knew that a comeback into computer science
-                    would be hard to make. Nevertheless, I also knew that if anybody could pull it off, it was me. From the past six months I have immersed myself into front-end development. Although my path may be unorthodox, I assure you
+                Hello my name is Arjun! I am a 24 year old front-end developer. I graduated from Sir M. Visvesvaraya Institute of Technology, Bengaluru with a Bachelor degree in computer science in 2020.
+                It has been a year since I have started practising in this field.
+                For the past six months I have immersed myself into building this portfolio and all the projects associated with it. Although my path may be unorthodox (I have a very interesting backstory), I assure you
                     that my learning ability is not. Please go through this portfolio and be a judge yourself. Happy viewing!
                 </p>
 
